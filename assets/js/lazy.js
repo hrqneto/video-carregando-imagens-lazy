@@ -6,7 +6,6 @@
         const lazySizesLib = await import('./lazysizes.min.js');
         window.lazySizesConfig = window.lazySizesConfig || {}
         window.lazySizesConfig.lazyClass = 'js-lazy'
-        window.lazySizesConfig.loadMode = 1
         window.lazySizesConfig.loadingClass = 'is-loading'
         window.lazySizesConfig.loadedClass = 'is-loaded'
         lazySizes.init();
